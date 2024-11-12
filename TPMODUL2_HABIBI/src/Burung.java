@@ -1,5 +1,5 @@
 public class Burung extends Hewan {
-    private final String warnaBulu;
+    protected String warnaBulu;
 
     public Burung(String nama, int umur, String warnaBulu) {
         super(nama, umur); 
@@ -14,6 +14,6 @@ public class Burung extends Hewan {
     @Override
     public void infoHewan() {
         super.infoHewan();
-        System.out.println("Warna Bulu: " + warnaBulu);
+        System.out.println("Warna Bulu: " + warnaBulu );
     }
 }

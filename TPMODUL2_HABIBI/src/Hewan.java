@@ -7,6 +7,7 @@ public class Hewan {
         this.umur = umur;
     }
 
+
     //override
     public void suara() {
         System.out.println("Hewan mengeluarkan suara.");
